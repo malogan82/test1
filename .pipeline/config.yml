@@ -50,11 +50,11 @@ stages:
 #    nonErpDestinations:
 #      - 'myCustomDestination'
 
-  productionDeployment:
-    cfTargets:
-      - org: 'myOrg'
-        space: 'mySpace'
-        apiEndpoint: 'https://'
-        appName: 'myAppName'
-        manifest: 'manifest.yml'
-        credentialsId: 'myDeploymentCredentialsId'
+#  productionDeployment:
+#    cfTargets:
+#      - org: 'myOrg'
+#        space: 'mySpace'
+#        apiEndpoint: 'https://'
+#        appName: 'myAppName'
+#        manifest: 'manifest.yml'
+#        credentialsId: 'myDeploymentCredentialsId'
